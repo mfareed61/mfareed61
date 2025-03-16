@@ -1,12 +1,29 @@
-- 👋 Hi, I’m @mfareed61
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster Kombat</title>
+    <style>
+        /* Add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #game-container {
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            margin: 40px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hamster Kombat</h1>
+    <div id="game-container">
+        <!-- Game canvas will be rendered here -->
+    </div>
 
-<!---
-mfareed61/mfareed61 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    <script src="script.js"></script>
+</body>
+</html>
